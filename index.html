@@ -10,67 +10,80 @@
 </head>
 
 <body>
-<div class="whole-page">
+
   <div class="topnav">
     <ul class="nav nav-tabs">
       <a class="left_name" href= "#home"> shilpi.eth </a>
       <a href="#network">NETWORK BOOK</a>
-      <a href="#Resume">RESUME</a>
+      <a href="#resume">RESUME</a>
       <a href="#work">WORK</a>
       <a href="#trip">THE TRIP</a>
     </ul>
   </div>
 
+
   <div class="tab-content">
+
+    #HOME
+    <div class="whole-page">
     <div id="home" class="tab-pane fade in active">
-      
-      <div class="left-intro"> <div class="intro-bg"></div>
-        <span class="v723_96">
-          <p>
-          Gm! I am Shilpi. Graduated from Indian Institute of Technology, Roorkee in summer of 2021.
-          </p>
+        <div class="left-intro"> <div class="intro-bg"></div>
+          <span class="intro-text">
 
-          <p>Product manager for Prescinto.Crypto nerd. Building side projects with amazing folks at Build On Chain. </p>
-          <p>Contributor @BanyanDAO. Helping web2 PMs transition to Web3. </p>
+            <p>Gm! I am Shilpi. Graduated from Indian Institute of Technology, Roorkee in summer of 2021.</p>
+            <p>Product manager for Prescinto.Crypto nerd. Building side projects with amazing folks at Build On Chain. </p>
+            <p>Member @BanyanDAO. Helping web2 PMs transition to Web3. </p>
+            <p>I have failed at couple of startups since college. I wanted to be a physics ressearcher before that.And even before that I dreamt of being a top notch designer. You can only connect the dots when you look backwards :)</p>
 
-          <p> 
-          I have failed at couple of startups since college. I wanted to be a physics ressearcher before that. 
-          And even before that I dreamt of being a top notch designer. You can only connect the dots when you look backwards :)
-          </p>
+            <p>
+              <a class="twitter" href="https://twitter.com/shilpi_jc"> </a>
+              <a class="linkedin" href="https://twitter.com/shilpi_jc"> </a>
+            </p>
 
-        </span>     
-      </div>
+          </span>     
+        </div>
 
-      <div class="intro-image"> </div>
-      
+        <div class="intro-image"> </div>
+
     </div>
+    </div>
+
+    #TRIP
+
+    <div id="trip" class="tab-pane fade">
+      <div class="trip-image"> </div>
+    </div>
+
+    #WORK
+
+    <div id="work" class="tab-pane fade">
+
+      <div class="bg-style"></div>
+
+      <div class="notific"></div>
+      <div class="walletgenie"></div>
+      <div class="looking-for-work"></div> <span class="looking-for-work-text">I am actively looking for web3 product roles. Lets talk?</span>
+      <div class="tally"></div>
+
+      <span class="notific-test">NOTIFIC</span>
+      <span class="walletgenie-text">WALLETGENIE</span>
+      <span class="tally-text">0xTALLY</span>
+
+
+    </div>
+
+    #RESUME
+    <div id="resume" class="tab-pane fade">
+      <div class="resume-image"> </div>
+    </div>
+
+
   </div>  
+   
 
 
 
- <div class="tab-content">
-  <div id="trip" class="tab-pane fade">
-    <div class="trip-image"> </div>
-  </div>
-</div>
 
-<div class="tab-content">
-  <div id="work" class="tab-pane fade">
-      <div class="v753_99">
-          <div class="bg-style"></div>
-
-          <div class="notific"></div>
-          <div class="walletgenie"></div>
-          <div class="looking-for-work"></div> <span class="looking-for-work-text">I am actively looking for web3 product roles. Lets talk?</span>
-          <div class="tally"></div>
-
-          <span class="notific-test">NOTIFIC</span>
-          <span class="walletgenie-text">WALLETGENIE</span>
-          <span class="tally-text">0xTALLY</span>
-
-      </div> 
-  </div>
-</div>  
 
 
 
@@ -94,69 +107,97 @@
 
 
 
+<style>* 
 
-
-
-
-
-<style>* {
+{
   box-sizing: border-box;
 }
+
 body {
   font-size: 14px;
   margin: auto;
 }
+
 .whole-page {
   width: 100%;
   height: 800px;
   background: url("images/shilpi_bg.png");
   background-repeat: no-repeat;
   background-position: center center;
+  opacity: 1;
+  position: absolute;
+  top: 66px;
+  left: 0px;
+  overflow: hidden;
+}
+.twitter {
+  width: 35px;
+  height: 35px;
+  background: url("images/TwitterLogo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 0px;
+  top: 450px;
   left: 0px;
   overflow: hidden;
 }
 
-
+.linkedin {
+  width: 35px;  
+  height: 35px;
+  background: url("images/LinkedinLogo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 450px;
+  left: 50px;
+  overflow: hidden;
+}
 .topnav {
+    width: 1440px;
+    position: fixed; 
     overflow: hidden;
     background-color: rgb(0, 0, 0);
     font-family: Avenir ;
   }
 
   .topnav a {
+    height: 66px; 
     float: right;
     color: #f2f2f2;
     text-align: center;
-    padding-top: 18px;
+    padding-top: 22px;
     padding-left:  16px;
-    padding-bottom: 10px;
     padding-right:  16px;
     text-decoration: none;
     font-size: 16px;
   }
 
   .topnav a:hover {
-    color: black;
+    color: rgb(176, 0, 215);
   }
 
   .topnav a.active {
     color: white;
+    font-weight: 500;
   }
   
   .topnav a.left_name {
     color: White;
     float : left;
     font-size: 24px;
-    padding-top: 18px;
+    padding-top: 21px;
     font-weight: 800;
   }
 
 
-
+.nav-tabs {
+  border-bottom: 1px solid black; 
+}
 
 
 .left-intro {
@@ -185,14 +226,14 @@ body {
 
 .intro-image {
   width: 620px;
-  height: 750px;
+  height: 730px;
   background: url("images/shilpi_port.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  position: absolute;
-  top: 50;
+  position: fixed;
+  top: 67px;
   right: 0px;
   overflow: hidden;
   float: right;
@@ -200,7 +241,7 @@ body {
 
 
 
-.v723_96 {
+.intro-text {
   width: 576px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -212,60 +253,10 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v723_106 {
-  width: 714px;
-  height: 880px;
-  background: url("images/shilpi_port.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 102px;
-  left: 799px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  overflow: hidden;
-}
-.name {
-  color: #fff;
-}
-.v758_149 {
-  width: 533px;
-  height: 50px;
-  background: url("../images/v758_149.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 840px;
-  left: 121px;
-  overflow: hidden;
-}
 
-
-
-
-
-
-
-  .v753_99 {
-    width: 100%;
-    height: 982px;
-    background: rgba(255,255,255,1);
-    opacity: 1;
-    position: absolute;
-    top: 50px;
-    left: 0px;
-    overflow: hidden;
-  }
   .bg-style {
     width: 1512px;
-    height: 982px;
+    height: 800px;
     background: rgba(0,0,0,1);
     background: url(images/work_bg.png);
     background-repeat: no-repeat;
@@ -273,25 +264,14 @@ body {
     background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 0px;
+    top: 66px;
     left: 0px;
     overflow: hidden;
   }
   .name {
     color: #fff;
   }
-  .v755_560 {
-    width: 360px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 311px;
-    left: 1512px;
-    font-family: Avenir ; 
-    font-weight: Bold;
-    font-size: 116px;
-    opacity: 1;
-    text-align: left;
-  }
+  
   .notific {
     width: 362px;
     height: 300px;
@@ -331,9 +311,9 @@ body {
     position: absolute;
     top: 161px;
     left: 377px;
-    font-family: Khand;
+    font-family: Avenir;
     font-weight: Bold;
-    font-size: 32px;
+    font-size: 24px;
     opacity: 1;
     text-align: left;
   }
@@ -354,7 +334,7 @@ body {
     position: absolute;
     top: 304px;
     left: 210px;
-    font-family: Khand;
+    font-family: Avenir;
     font-weight: Bold;
     font-size: 32px;
     opacity: 1;
@@ -366,7 +346,7 @@ body {
     position: absolute;
     top: 304px;
     left: 578px;
-    font-family: Khand;
+    font-family: Avenir;
     font-weight: Bold;
     font-size: 32px;
     opacity: 1;
@@ -378,7 +358,7 @@ body {
     position: absolute;
     top: 295px;
     left: 1025px;
-    font-family: Khand;
+    font-family: Avenir;
     font-weight: Bold;
     font-size: 32px;
     opacity: 1;
@@ -387,8 +367,8 @@ body {
 
 
   .trip-image{
-  width: 85%;
-  height: 600px;
+  width: 100%;
+  height: 800px;
   background-color: black;
   background: url("images/shilpi_trip.png");
   background-repeat: no-repeat;
@@ -396,9 +376,26 @@ body {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 200px;
-  left: 50px;
+  top: 66px;
+  left: 0px;
   overflow: hidden;
 }
+
+
+.resume-image{
+    width: 100%;
+    height: 5733px;
+    background-color: black;
+    background: url("images/resume.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 67px;
+    left:0;
+    overflow: hidden;
+  }
+  
 
 </style>
