@@ -1,5 +1,6 @@
-<!DOCTYPE html><html>
-    
+<!DOCTYPE html>
+<html>
+
 <head>
   <link href="https://fonts.googleapis.com/css?family=Avenir+Next+Condensed&display=swap" rel="stylesheet" />
   <meta charset="utf-8">
@@ -13,7 +14,7 @@
 
   <div class="topnav">
     <ul class="nav nav-tabs">
-      <a class="left_name" href= "#home"> shilpi.eth </a>
+      <a class="left_name" href="#home"> shilpi.eth </a>
       <a href="#network">NETWORK BOOK</a>
       <a href="#resume">RESUME</a>
       <a href="#work">WORK</a>
@@ -25,27 +26,31 @@
   <div class="tab-content">
 
     #HOME
-    <div class="whole-page">
-    <div id="home" class="tab-pane fade in active">
-        <div class="left-intro"> <div class="intro-bg"></div>
+
+    <div id="home" class="tab-pane fade">
+      
+      <div class="whole-page">
+        <div class="left-intro">
+          <div class="intro-bg"> </div>
           <span class="intro-text">
 
             <p>Gm! I am Shilpi. Graduated from Indian Institute of Technology, Roorkee in summer of 2021.</p>
-            <p>Product manager for Prescinto.Crypto nerd. Building side projects with amazing folks at Build On Chain. </p>
+            <p>Product manager for Prescinto.Crypto nerd. Building side projects with amazing folks at Build On Chain.
+            </p>
             <p>Member @BanyanDAO. Helping web2 PMs transition to Web3. </p>
-            <p>I have failed at couple of startups since college. I wanted to be a physics ressearcher before that.And even before that I dreamt of being a top notch designer. You can only connect the dots when you look backwards :)</p>
+            <p>I have failed at couple of startups since college. I wanted to be a physics ressearcher before that.And
+              even before that I dreamt of being a top notch designer. You can only connect the dots when you look
+              backwards :)</p>
 
             <p>
               <a class="twitter" href="https://twitter.com/shilpi_jc"> </a>
               <a class="linkedin" href="https://twitter.com/shilpi_jc"> </a>
             </p>
+          </span>
 
-          </span>     
         </div>
-
         <div class="intro-image"> </div>
-
-    </div>
+      </div>
     </div>
 
     #TRIP
@@ -62,7 +67,8 @@
 
       <div class="notific"></div>
       <div class="walletgenie"></div>
-      <div class="looking-for-work"></div> <span class="looking-for-work-text">I am actively looking for web3 product roles. Lets talk?</span>
+      <div class="looking-for-work"></div> <span class="looking-for-work-text">I am actively looking for web3 product
+        roles. Lets talk?</span>
       <div class="tally"></div>
 
       <span class="notific-test">NOTIFIC</span>
@@ -78,8 +84,7 @@
     </div>
 
 
-  </div>  
-   
+  </div>
 
 
 
@@ -87,92 +92,95 @@
 
 
 
-      
-<script>
-  $(document).ready(function(){
-    $(".nav-tabs a").click(function(){
-      $(this).tab('show');
+
+
+  <script>
+    $(document).ready(function () {
+      $(".nav-tabs a").click(function () {
+        $(this).tab('show');
+      });
     });
-  });
   </script>
-  
-
-  </body>
-</html> 
-                
-<br/><br/> 
 
 
+</body>
 
+</html>
+
+<br /><br />
 
 
 
-<style>* 
 
-{
-  box-sizing: border-box;
-}
 
-body {
-  font-size: 14px;
-  margin: auto;
-}
 
-.whole-page {
-  width: 100%;
-  height: 800px;
-  background: url("images/shilpi_bg.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  opacity: 1;
-  position: absolute;
-  top: 66px;
-  left: 0px;
-  overflow: hidden;
-}
-.twitter {
-  width: 35px;
-  height: 35px;
-  background: url("images/TwitterLogo.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 450px;
-  left: 0px;
-  overflow: hidden;
-}
+<style>
+  * {
+    box-sizing: border-box;
+  }
 
-.linkedin {
-  width: 35px;  
-  height: 35px;
-  background: url("images/LinkedinLogo.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 450px;
-  left: 50px;
-  overflow: hidden;
-}
-.topnav {
+  body {
+    font-size: 14px;
+    margin: auto;
+  }
+
+  .whole-page {
+    width: 100%;
+    height: 800px;
+    background: url("images/shilpi_bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 1;
+    position: absolute;
+    top: 66px;
+    left: 0px;
+    overflow: hidden;
+  }
+
+  .twitter {
+    width: 35px;
+    height: 35px;
+    background: url("images/TwitterLogo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 450px;
+    left: 0px;
+    overflow: hidden;
+  }
+
+  .linkedin {
+    width: 35px;
+    height: 35px;
+    background: url("images/LinkedinLogo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 450px;
+    left: 50px;
+    overflow: hidden;
+  }
+
+  .topnav {
     width: 1440px;
-    position: fixed; 
+    position: fixed;
     overflow: hidden;
     background-color: rgb(0, 0, 0);
-    font-family: Avenir ;
+    font-family: Avenir;
   }
 
   .topnav a {
-    height: 66px; 
+    height: 66px;
     float: right;
     color: #f2f2f2;
     text-align: center;
     padding-top: 22px;
-    padding-left:  16px;
-    padding-right:  16px;
+    padding-left: 16px;
+    padding-right: 16px;
     text-decoration: none;
     font-size: 16px;
   }
@@ -185,79 +193,80 @@ body {
     color: white;
     font-weight: 500;
   }
-  
+
   .topnav a.left_name {
     color: White;
-    float : left;
+    float: left;
     font-size: 24px;
     padding-top: 21px;
     font-weight: 800;
   }
 
 
-.nav-tabs {
-  border-bottom: 1px solid black; 
-}
+  .nav-tabs {
+    border-bottom: 1px solid black;
+  }
 
 
-.left-intro {
-  width: 644px;
-  height: 630px;
-  background: url("../images/left-intro.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 120px;
-  left: 50px;
-  overflow: hidden;
-}
-.intro-bg {
-  width: 644px;
-  height: 630px;
-  background: rgba(37,22,90,1);
-  opacity: 0.5;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
+  .left-intro {
+    width: 644px;
+    height: 630px;
+    background: url("../images/left-intro.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    overflow: hidden;
+  }
 
-.intro-image {
-  width: 620px;
-  height: 730px;
-  background: url("images/shilpi_port.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: fixed;
-  top: 67px;
-  right: 0px;
-  overflow: hidden;
-  float: right;
-}
+  .intro-bg {
+    width: 644px;
+    height: 630px;
+    background: rgba(37, 22, 90, 1);
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+
+  .intro-image {
+    width: 620px;
+    height: 730px;
+    background: url("images/shilpi_port.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: fixed;
+    top: 67px;
+    right: 0px;
+    overflow: hidden;
+    float: right;
+  }
 
 
 
-.intro-text {
-  width: 576px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 51px;
-  left: 34px;
-  font-family: Avenir ;
-  font-weight: Medium;
-  font-size: 24px;
-  opacity: 1;
-  text-align: left;
-}
+  .intro-text {
+    width: 576px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 51px;
+    left: 34px;
+    font-family: Avenir;
+    font-weight: Medium;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+  }
 
   .bg-style {
     width: 1512px;
     height: 800px;
-    background: rgba(0,0,0,1);
+    background: rgba(0, 0, 0, 1);
     background: url(images/work_bg.png);
     background-repeat: no-repeat;
     background-position: center center;
@@ -268,46 +277,50 @@ body {
     left: 0px;
     overflow: hidden;
   }
+
   .name {
     color: #fff;
   }
-  
+
   .notific {
     width: 362px;
     height: 300px;
-    background: rgba(174,146,255,1);
+    background: rgba(174, 146, 255, 1);
     opacity: 1;
     position: absolute;
     top: 268px;
     left: 77px;
-    border: 1px solid rgba(255,255,255,1);
+    border: 1px solid rgba(255, 255, 255, 1);
     overflow: hidden;
   }
+
   .walletgenie {
     width: 362px;
     height: 300px;
-    background: rgba(96,247,175,1);
+    background: rgba(96, 247, 175, 1);
     opacity: 1;
     position: absolute;
     top: 268px;
     left: 485px;
-    border: 1px solid rgba(255,255,255,1);
+    border: 1px solid rgba(255, 255, 255, 1);
     overflow: hidden;
   }
+
   .looking-for-work {
     width: 1178px;
     height: 100px;
-    background: rgba(189,251,255,1);
+    background: rgba(189, 251, 255, 1);
     opacity: 1;
     position: absolute;
     top: 135px;
     left: 77px;
-    border: 1px solid rgba(255,255,255,1);
+    border: 1px solid rgba(255, 255, 255, 1);
     overflow: hidden;
   }
+
   .looking-for-work-text {
     width: 733px;
-    color: rgba(0,0,0,1);
+    color: rgba(0, 0, 0, 1);
     position: absolute;
     top: 161px;
     left: 377px;
@@ -317,20 +330,22 @@ body {
     opacity: 1;
     text-align: left;
   }
+
   .tally {
     width: 362px;
     height: 300px;
-    background: rgba(248,173,141,1);
+    background: rgba(248, 173, 141, 1);
     opacity: 1;
     position: absolute;
     top: 268px;
     left: 892px;
-    border: 1px solid rgba(255,255,255,1);
+    border: 1px solid rgba(255, 255, 255, 1);
     overflow: hidden;
   }
+
   .notific-test {
     width: 88px;
-    color: rgba(0,0,0,1);
+    color: rgba(0, 0, 0, 1);
     position: absolute;
     top: 304px;
     left: 210px;
@@ -340,9 +355,10 @@ body {
     opacity: 1;
     text-align: left;
   }
+
   .walletgenie-text {
     width: 153px;
-    color: rgba(0,0,0,1);
+    color: rgba(0, 0, 0, 1);
     position: absolute;
     top: 304px;
     left: 578px;
@@ -352,9 +368,10 @@ body {
     opacity: 1;
     text-align: left;
   }
+
   .tally-text {
     width: 98px;
-    color: rgba(255,255,255,1);
+    color: rgba(255, 255, 255, 1);
     position: absolute;
     top: 295px;
     left: 1025px;
@@ -366,23 +383,23 @@ body {
   }
 
 
-  .trip-image{
-  width: 100%;
-  height: 800px;
-  background-color: black;
-  background: url("images/shilpi_trip.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 66px;
-  left: 0px;
-  overflow: hidden;
-}
+  .trip-image {
+    width: 100%;
+    height: 750px;
+    background-color: black;
+    background: url("images/shilpi_trip.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 66px;
+    left: 0px;
+    overflow: hidden;
+  }
 
 
-.resume-image{
+  .resume-image {
     width: 100%;
     height: 5733px;
     background-color: black;
@@ -393,9 +410,7 @@ body {
     opacity: 1;
     position: absolute;
     top: 67px;
-    left:0;
+    left: 0;
     overflow: hidden;
   }
-  
-
 </style>
