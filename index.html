@@ -12,6 +12,7 @@
 
 <body>
 
+  <!-- Navbar -->
   <div class="topnav">
     <ul class="nav nav-tabs">
       <a class="left_name" href="#home"> shilpi.eth </a>
@@ -22,20 +23,41 @@
     </ul>
   </div>
 
+  <!-- HOME PAGE DEFAULT -->
   <div>
-      
     <div class="whole-page">
       <div class="left-intro">
         <div class="intro-bg"> </div>
         <span class="intro-text">
 
-          <p>Gm! I am Shilpi. Graduated from Indian Institute of Technology, Roorkee in summer of 2021.</p>
-          <p>Product manager for Prescinto.Crypto nerd. Building side projects with amazing folks at Build On Chain.
+          <p>Gm! I am Shilpi. </p>
+
+          <p>Graduated from 
+            <span class= "highlight" style= " color: #F9AE8E;" > Indian Institute of Technology, Roorkee in summer of 2021.</span>
           </p>
-          <p>Member @BanyanDAO. Helping web2 PMs transition to Web3. </p>
-          <p>I have failed at couple of startups since college. I wanted to be a physics ressearcher before that.And
-            even before that I dreamt of being a top notch designer. You can only connect the dots when you look
-            backwards :)</p>
+         
+          <p>
+            Product manager at <span class= "highlight" style= " color: #77C9F8;"> Prescinto.</span>
+            A sustaiibility tech startup
+          </p>
+
+          <p> 
+            <span class= "highlight" >Crypto nerd.</span> 
+            Building side projects with amazing folks at
+            <span class= "highlight" >Build On Chain. </span> 
+          </p>
+
+          <p>
+            <span class= "highlight"  style= " color: #61F8AF;"> Member @BanyanDAO. </span>
+            Helping web2 PMs transition to Web3. 
+          </p>
+
+
+          <p>I have failed at couple of startups since college. 
+            I wanted to be a physics ressearcher before that.And
+            even before that I dreamt of being a top notch designer. 
+            You can only connect the dots when you look backwards :)
+          </p>
 
           <p>
             <a class="twitter" href="https://twitter.com/shilpi_jc"> </a>
@@ -48,25 +70,47 @@
     </div>
   </div>
 
+
+  <!--TAB_CONTENT   -->
+
   <div class="tab-content">
 
-    #HOME
-
+  <!-- HOME PAGE -->
     <div id="home" class="tab-pane fade">
-      
       <div class="whole-page">
         <div class="left-intro">
           <div class="intro-bg"> </div>
           <span class="intro-text">
 
-            <p>Gm! I am Shilpi. Graduated from Indian Institute of Technology, Roorkee in summer of 2021.</p>
-            <p>Product manager for Prescinto.Crypto nerd. Building side projects with amazing folks at Build On Chain.
+            <p>Gm! I am Shilpi. </p>
+  
+            <p>Graduated from 
+              <span class= "highlight" style= " color: #F9AE8E;" > Indian Institute of Technology, Roorkee in summer of 2021.</span>
             </p>
-            <p>Member @BanyanDAO. Helping web2 PMs transition to Web3. </p>
-            <p>I have failed at couple of startups since college. I wanted to be a physics ressearcher before that.And
-              even before that I dreamt of being a top notch designer. You can only connect the dots when you look
-              backwards :)</p>
-
+           
+            <p>
+              Product manager at <span class= "highlight" style= " color: #77C9F8"> Prescinto.</span>
+              A sustaiibility tech startup
+            </p>
+  
+            <p> 
+              <span class= "highlight" >Crypto nerd.</span> 
+              Building side projects with amazing folks at
+              <span class= "highlight" >Build On Chain. </span> 
+            </p>
+  
+            <p>
+              <span class= "highlight"  style= " color: #61F8AF;"> Member @BanyanDAO. </span>
+              Helping web2 PMs transition to Web3. 
+            </p>
+  
+  
+            <p>I have failed at couple of startups since college. 
+              I wanted to be a physics ressearcher before that.And
+              even before that I dreamt of being a top notch designer. 
+              You can only connect the dots when you look backwards :)
+            </p>
+  
             <p>
               <a class="twitter" href="https://twitter.com/shilpi_jc"> </a>
               <a class="linkedin" href="https://twitter.com/shilpi_jc"> </a>
@@ -78,15 +122,18 @@
       </div>
     </div>
 
-    #TRIP
 
+
+
+    <!--TRIP  -->
     <div id="trip" class="tab-pane fade">
       <div class="trip-image"> </div>
     </div>
 
-    #WORK
 
-    <div id="work" class="tab-pane fade">      
+    <!--WORK  -->
+
+    <div id="work" class="tab-pane fade">
       <div class="work_bg">
 
         <div class="looking_for_role_box"></div>
@@ -96,7 +143,7 @@
         <span class="Notific">Notific</span>
         <span class="notific_des">Recieve your wallet activity notification on your WA</span>
         <div class="logo_notific"></div>
-       
+
         <div class="wagmipedia_details_box"></div>
         <span class="wagmipedia">Wagmipedia</span>
         <span class="wagmipedia_des">Content Writer. Breaking down Defi</span>
@@ -106,30 +153,31 @@
         <span class="BanyanDAO">BanyanDAO</span>
         <span class="banyan_des">Member, working on building a CBC for web3 PMs</span>
         <div class="logo_banyandao"></div>
-        
+
         <div class="trusts_details_box"></div>
         <span class="truts">Truts.xyz</span>
         <span class="truts_des">Contributor, The DAO discovery platform</span>
         <div class="logo_truts"></div>
-
-        
-        
-    </div>
+      </div>
     </div>
 
-    #RESUME
+
+
+    <!--RESUME  -->
     <div id="resume" class="tab-pane fade">
       <div class="resume-image"> </div>
     </div>
 
 
-  <script>
-    $(document).ready(function () {
-      $(".nav-tabs a").click(function () {
-        $(this).tab('show');
+    <!--TABS_END  -->
+
+    <script>
+      $(document).ready(function () {
+        $(".nav-tabs a").click(function () {
+          $(this).tab('show');
+        });
       });
-    });
-  </script>
+    </script>
 
 
 </body>
@@ -153,10 +201,16 @@
     margin: auto;
   }
 
+  .highlight{
+    font-weight: bolder;
+    font-style: italic;
+    color: #AE92FF;
+
+  }
   .whole-page {
     width: 100%;
     height: 800px;
-    background: url("images/shilpi_bg.png");
+    background:black;
     background-repeat: no-repeat;
     background-position: center center;
     opacity: 1;
@@ -175,7 +229,6 @@
     background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 450px;
     left: 0px;
     overflow: hidden;
   }
@@ -189,18 +242,17 @@
     background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 450px;
-    left: 50px;
+    left: 10%;
     overflow: hidden;
   }
 
   .topnav {
-    width: 1440px;
-    position: sticky;
+    width: 100%;
+    position: fixed;
     overflow: hidden;
     background-color: rgb(0, 0, 0);
     font-family: Avenir;
-  } 
+  }
 
   .topnav a {
     height: 66px;
@@ -208,8 +260,7 @@
     color: #f2f2f2;
     text-align: center;
     padding-top: 22px;
-    padding-left: 16px;
-    padding-right: 20px;
+    padding-right: 3%;
     text-decoration: none;
     font-size: 16px;
   }
@@ -229,7 +280,7 @@
     font-size: 24px;
     padding-top: 21px;
     font-weight: 800;
-    margin-left: 20px;
+    padding-left: 3%;
   }
 
 
@@ -241,13 +292,12 @@
   .left-intro {
     width: 644px;
     height: 630px;
-    background: url("../images/left-intro.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     opacity: 1;
-    position: absolute;
-    top: 120px;
+    position: fixed;
+    top: 90px;
     left: 50px;
     overflow: hidden;
   }
@@ -255,7 +305,7 @@
   .intro-bg {
     width: 644px;
     height: 630px;
-    background: rgba(37, 22, 90, 1);
+    background: rgb(0, 0, 0);
     opacity: 0.5;
     position: absolute;
     top: 0px;
@@ -265,35 +315,38 @@
 
   .intro-image {
     width: 620px;
-    height: 730px;
-    background: url("images/shilpi_port.png");
+    height: 630px;
+    background: url(images/shilpi_port.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     opacity: 1;
     position: fixed;
-    top: 67px;
-    right: 0px;
+    top: 90px;
+    right: 50px;
     overflow: hidden;
     float: right;
-  }
+    border-radius: 10px;
+}
+
 
 
 
   .intro-text {
-    width: 576px;
+    width: 90%;
+    top: 50px;
+    left: 6%;
     color: rgba(255, 255, 255, 1);
     position: absolute;
-    top: 51px;
-    left: 34px;
     font-family: Avenir;
     font-weight: Medium;
+    text-align: left;
     font-size: 24px;
     opacity: 1;
-    text-align: left;
+    
   }
 
- 
+
 
 
   .trip-image {
@@ -328,259 +381,277 @@
   }
 
 
-  
+
   .work_bg {
-  width: 100%;
-  height: 982px;
-  background: rgba(0, 0, 0, 1);
-  background: url(images/work_bg.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 66px;
-  left: 0px;
-  overflow: hidden;
-}
-.v805_187 {
-  width: 100%;
-  height: 982px;
-  background: url("../images/v805_187.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 4px;
-  overflow: hidden;
-}
-.v805_184 {
-  width: 100%;
-  height: 982px;
-  background: rgba(0,0,0,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.name {
-  color: #fff;
-}
-.notific_details_box {
-  width: 582px;
-  height: 328px;
-  background: rgba(17,30,32,1);
-  opacity: 1;
-  position: absolute;
-  top: 150px;
-  left: 60px;
-  overflow: hidden;
-}
-.wagmipedia_details_box {
-  width: 582px;
-  height: 328px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 500px;
-  left: 60px;
-  overflow: hidden;
-}
-.banyandao_details_box {
-  width: 582px;
-  height: 328px;
-  background: rgba(48,52,55,1);
-  opacity: 1;
-  position: absolute;
-  top: 150px;
-  left: 660px;
-  overflow: hidden;
-}
-.trusts_details_box {
-  width: 582px;
-  height: 328px;
-  background: linear-gradient(rgba(240,213,219,1), rgba(207,210,236,1));
-  opacity: 1;
-  position: absolute;
-  top: 500px;
-  left: 660px;
-  overflow: hidden;
-}
-.looking_for_role_box {
-  width: 82%;
-  height: 70px;
-  background: rgba(97,248,175,1);
-  opacity: 1;
-  position: absolute;
-  top: 50px;
-  left: 60px;
-  overflow: hidden;
-}
-.looking_for_work {
-  width: 751px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 70px;
-  left: 268px;
-  font-family: General Sans;
-  font-weight: Bold;
-  font-size: 24px;
-  opacity: 1;
-  text-align: left;
-}
+    width: 100%;
+    height: 982px;
+    background: rgba(0, 0, 0, 1);
+    background: url(images/work_bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 66px;
+    left: 0px;
+    overflow: hidden;
+  }
+
+  .v805_187 {
+    width: 100%;
+    height: 982px;
+    background: url("../images/v805_187.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 4px;
+    overflow: hidden;
+  }
+
+  .v805_184 {
+    width: 100%;
+    height: 982px;
+    background: rgba(0, 0, 0, 1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+
+  .name {
+    color: #fff;
+  }
+
+  .notific_details_box {
+    width: 582px;
+    height: 328px;
+    background: rgba(17, 30, 32, 1);
+    opacity: 1;
+    position: absolute;
+    top: 150px;
+    left: 60px;
+    overflow: hidden;
+  }
+
+  .wagmipedia_details_box {
+    width: 582px;
+    height: 328px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 500px;
+    left: 60px;
+    overflow: hidden;
+  }
+
+  .banyandao_details_box {
+    width: 582px;
+    height: 328px;
+    background: rgba(48, 52, 55, 1);
+    opacity: 1;
+    position: absolute;
+    top: 150px;
+    left: 660px;
+    overflow: hidden;
+  }
+
+  .trusts_details_box {
+    width: 582px;
+    height: 328px;
+    background: linear-gradient(rgba(240, 213, 219, 1), rgba(207, 210, 236, 1));
+    opacity: 1;
+    position: absolute;
+    top: 500px;
+    left: 660px;
+    overflow: hidden;
+  }
+
+  .looking_for_role_box {
+    width: 82%;
+    height: 70px;
+    background: rgba(97, 248, 175, 1);
+    opacity: 1;
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    overflow: hidden;
+  }
+
+  .looking_for_work {
+    width: 751px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 70px;
+    left: 268px;
+    font-family: General Sans;
+    font-weight: Bold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+  }
 
 
-.Notific {
-  width: 96px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 180px;
-  left: 90px;
-  font-family: General Sans;
-  font-weight: Bold;
-  font-size: 28px;
-  opacity: 1;
-  text-align: left;
-}
-.wagmipedia {
-  width: 169px;
-  color: rgba(35,0,95,1);
-  position: absolute;
-  top: 525px;
-  left: 90px;
-  font-family: General Sans;
-  font-weight: Bold;
-  font-size: 28px;
-  opacity: 1;
-  text-align: left;
-}
-.BanyanDAO {
-  width: 161px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 180px;
-  left: 690px;
-  font-family: General Sans;
-  font-weight: Bold;
-  font-size: 28px;
-  opacity: 1;
-  text-align: left;
-}
-.truts {
-  width: 131px;
-  color: rgba(35,0,95,1);
-  position: absolute;
-  top: 525px;
-  left: 690px;
-  font-family: General Sans;
-  font-weight: Bold;
-  font-size: 28px;
-  opacity: 1;
-  text-align: left;
-}
-.notific_des {
-  width: 490px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 215px;
-  left: 90px;
-  font-family: General Sans;
-  font-weight: Medium;
-  font-size: 21px;
-  opacity: 1;
-  text-align: left;
-}
-.wagmipedia_des {
-  width: 342px;
-  color: rgba(35,0,95,1);
-  position: absolute;
-  top: 560px;
-  left: 90px;
-  font-family: General Sans;
-  font-weight: Medium;
-  font-size: 21px;
-  opacity: 1;
-  text-align: left;
-}
-.banyan_des {
-  width: 483px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 215px;
-  left: 690px;
-  font-family: General Sans;
-  font-weight: Medium;
-  font-size: 21px;
-  opacity: 1;
-  text-align: left;
-}
-.truts_des {
-  width: 398px;
-  color: rgba(35,0,95,1);
-  position: absolute;
-  top: 560px;
-  left: 690px;
-  font-family: General Sans;
-  font-weight: Medium;
-  font-size: 21px;
-  opacity: 1;
-  text-align: left;
-}
-.logo_notific {
-  width: 339px;
-  height: 99px;
-  background: url("images/logo_notific.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 340px;
-  left: 181px;
-  overflow: hidden;
-}
+  .Notific {
+    width: 96px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 180px;
+    left: 90px;
+    font-family: General Sans;
+    font-weight: Bold;
+    font-size: 28px;
+    opacity: 1;
+    text-align: left;
+  }
 
-.logo_wagmipedia {
-  width: 400px;
-  height: 50px;
-  background: url("images/logo_wagmipedia.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 650px;
-  left: 150px;
-  overflow: hidden;
-}
-.logo_banyandao {
-  width: 400px;
-  height: 150px;
-  background: url("images/logo_banyandao.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 300px;
-  left: 750px;
-  overflow: hidden;
-}
+  .wagmipedia {
+    width: 169px;
+    color: rgba(35, 0, 95, 1);
+    position: absolute;
+    top: 525px;
+    left: 90px;
+    font-family: General Sans;
+    font-weight: Bold;
+    font-size: 28px;
+    opacity: 1;
+    text-align: left;
+  }
 
-.logo_truts {
-  width: 284px;
-  height: 70px;
-  background: url("images/logo_truts.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 652px;
-  left: 790px;
-  overflow: hidden;
-}
+  .BanyanDAO {
+    width: 161px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 180px;
+    left: 690px;
+    font-family: General Sans;
+    font-weight: Bold;
+    font-size: 28px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .truts {
+    width: 131px;
+    color: rgba(35, 0, 95, 1);
+    position: absolute;
+    top: 525px;
+    left: 690px;
+    font-family: General Sans;
+    font-weight: Bold;
+    font-size: 28px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .notific_des {
+    width: 490px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 215px;
+    left: 90px;
+    font-family: General Sans;
+    font-weight: Medium;
+    font-size: 21px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .wagmipedia_des {
+    width: 342px;
+    color: rgba(35, 0, 95, 1);
+    position: absolute;
+    top: 560px;
+    left: 90px;
+    font-family: General Sans;
+    font-weight: Medium;
+    font-size: 21px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .banyan_des {
+    width: 483px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 215px;
+    left: 690px;
+    font-family: General Sans;
+    font-weight: Medium;
+    font-size: 21px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .truts_des {
+    width: 398px;
+    color: rgba(35, 0, 95, 1);
+    position: absolute;
+    top: 560px;
+    left: 690px;
+    font-family: General Sans;
+    font-weight: Medium;
+    font-size: 21px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .logo_notific {
+    width: 339px;
+    height: 99px;
+    background: url("images/logo_notific.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 340px;
+    left: 181px;
+    overflow: hidden;
+  }
+
+  .logo_wagmipedia {
+    width: 400px;
+    height: 50px;
+    background: url("images/logo_wagmipedia.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 650px;
+    left: 150px;
+    overflow: hidden;
+  }
+
+  .logo_banyandao {
+    width: 400px;
+    height: 150px;
+    background: url("images/logo_banyandao.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 300px;
+    left: 750px;
+    overflow: hidden;
+  }
+
+  .logo_truts {
+    width: 284px;
+    height: 70px;
+    background: url("images/logo_truts.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 652px;
+    left: 790px;
+    overflow: hidden;
+  }
 </style>
